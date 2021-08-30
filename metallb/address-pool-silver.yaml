@@ -1,0 +1,17 @@
+apiVersion: metallb.io/v1alpha1
+kind: AddressPool
+metadata:
+  name: address-pool-silver
+  namespace: metallb-system
+spec:
+  protocol: layer2
+  addresses:
+    - 10.0.96.21 - 10.0.96.21
+    - 10.0.97.219 - 10.0.97.219
+    - 10.0.98.29 - 10.0.98.29
+ 
+
+    
+   
+    
+
